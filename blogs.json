@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "title" : "blog #1",
+        "text": "this is a text that i can use to see how blog representation look like",
+        "img": ""
+    },
+    {
+        "id": 2,
+        "title" : "blog #2",
+        "text": "this is a text 2 that i can use to see how blog representation look like",
+        "img": ""
+    }
+]
