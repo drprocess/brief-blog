@@ -8,7 +8,6 @@ app.use(express.static(__dirname + '\\public'));
 app.use('/', router);
 app.use(express.json());
 
-
 //get all blogs
 app.get('/api/blogs', (req, res) => {
     fs.readFile("blogs.json", (err, data) => {
@@ -94,8 +93,8 @@ app.post('/api/blogs', (req, res) => {
             const blogs = JSON.parse(data);
             blogs.push({
                 "id": blogs.length + 1,
-                "title": req.body.name,
-                "text": req.body.discription
+                "title": req.body.title,
+                "text": req.body.text
             });
             fs.writeFile("blogs.json", JSON.stringify(blogs, null, 2), (err, result) => {
                 if (err) {

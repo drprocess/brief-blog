@@ -1,14 +1,12 @@
 [
-    {
-        "id": 1,
-        "title" : "blog #1",
-        "text": "this is a text that i can use to see how blog representation look like",
-        "img": ""
-    },
-    {
-        "id": 2,
-        "title" : "blog #2",
-        "text": "this is a text 2 that i can use to see how blog representation look like",
-        "img": ""
-    }
+  {
+    "id": 1,
+    "title": "How to download a youtube video",
+    "text": "just learn to use google instead it will help trust me"
+  },
+  {
+    "id": 2,
+    "title": "how to exit vim",
+    "text": "honestly just go and learn how to use google first"
+  }
 ]
